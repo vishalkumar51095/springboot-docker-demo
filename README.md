@@ -24,10 +24,14 @@ docker simple demo project with spring boot
       After this command project will run.
 (viii) we see project in running phase by this command-->
         docker ps  
- (viii) After testing of project we will stop/remove running container by this command-->
-        docker stop "Container-Id"
+ (viii) After testing of project we will stop running container by this command-->
+        docker container stop "Container-Id"
  (ix) Now we will check docker image is not running by this command-->
         docker ps
+  (x) for see not running container by this command
+        docker ps -a
+  (xi) Next time We will run this project by this command-->
+        docker container start "Container-Id"
       
 
     
